@@ -6,7 +6,7 @@
 
 2) -> Now we have to downgrade our dfx version to 0.8.4 (this takes some time ~15mins) , Now to downgrade use the command
 
-         DFX_VERSION=0.8.4 sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"
+        DFX_VERSION=0.8.4 sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"
 
 3) ->After downgrading the dfx version, Now type
 
@@ -26,8 +26,6 @@
 
           $ npm start
 
-This worked fine for me.
-
 (NOTE: Don't worry of downgrading the dfx version we can upgrade it back to latest version when needed)
 
 (--->
@@ -37,7 +35,7 @@ ADDITIONAL SOLUTION FOR ERROR  IN dfx deploy
 Error:  The replica returned an HTTP Error: Http Error: status 400 Bad Request for your canister
 
 Solution: Just type
-    `$ dfx start --clean`
+        `$ dfx start --clean`
 
 <----)
 
